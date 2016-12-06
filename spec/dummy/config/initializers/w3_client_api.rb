@@ -7,4 +7,7 @@ W3ClientApi.configure do |config|
 
   # Config database
   config.db = 'w3_client_api_test'
+
+  # Api Key
+  config.key = 'bffbad9f715467b94fe54'
 end

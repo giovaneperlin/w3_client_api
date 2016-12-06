@@ -7,4 +7,7 @@ W3ClientApi.configure do |config|
 
   # Config database
   config.db = ''
+
+  # Api Key
+  config.key = ''
 end

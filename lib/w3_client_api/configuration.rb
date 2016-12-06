@@ -14,6 +14,7 @@ module W3ClientApi
     attr_accessor :path
     attr_accessor :password
     attr_accessor :db
+    attr_accessor :key
 
     def initialize
       @db = 'replace-me-with-your-db'
@@ -21,6 +22,7 @@ module W3ClientApi
       @host = 'replace-me-with-your-host'
       @password = 'replace-me-with-your-password-host'
       @path = 'replace-me-with-your-path'
+      @key = 'raplace-me-with-your-key'
     end
   end
 end

@@ -31,6 +31,10 @@ module W3ClientApi
       format_size filter_process.split(' ')[2].to_i
     end
 
+    def self.key
+      W3ClientApi.configuration.key
+    end
+
     private
 
     def self.filter_process
