@@ -2,9 +2,9 @@ W3ClientApi.configure do |config|
   # Config host
   config.host = ''
   config.user = ''
-  config.db = ''
+  config.password = ''
   config.path = ''
 
   # Config database
-  config.password = ''
+  config.db = ''
 end
