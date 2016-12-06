@@ -6,7 +6,7 @@ Specific API for w3case clients
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'w3_client_api', path: 'https://github.com/luizpicolo/w3_client_api.git'
+gem 'w3_client_api', git: 'https://github.com/luizpicolo/w3_client_api.git'
 ```
 and run
 
@@ -28,6 +28,9 @@ W3ClientApi.configure do |config|
 
   # Config database
   config.db = '' # Name database
+
+  # API Key
+  config.key = ''
 end
 ```
 
@@ -45,6 +48,9 @@ W3ClientApi.configure do |config|
 
   # Config database
   config.db = 'w3_client_api_test'
+
+  # API Key
+  config.key = 'bffbad9f715467b94fe54'
 end
 ```
 
